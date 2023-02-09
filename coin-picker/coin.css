@@ -1,0 +1,49 @@
+.container{
+    border: 2px solid black;
+    width: 70%;
+    height: 200px;
+    border-radius: 0.3rem;
+    margin-left:15% ;
+}
+.child-container{
+    border: 2px solid black;
+    width: 20%;
+    height: 72px;
+    margin: 3% 0 0 40.5%;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 59px;
+
+}
+#btn{
+    border: 2px solid black;
+    width: 20%;
+    height: 41px;
+    text-align: center;
+    margin: 3% 0 0 40.7%;
+    border-radius: 0.3rem;
+    left: 500px;
+}
+.tittle{
+    text-align: center;
+}
+.scontainer{
+    border: 2px solid black;
+    width: 70%;
+    height: 489px;
+    margin-top: 5px;
+    border-radius: 0.3rem;
+    /* padding: 15%; */
+    margin-left:15% ;
+}
+.child-scontainer{
+    border: 2px solid black;
+    height: 35px;
+    width: 52px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin: 5px;
+
+}
