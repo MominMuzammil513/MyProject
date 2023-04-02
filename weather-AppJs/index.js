@@ -1,24 +1,4 @@
 
-
-// let weaTher = {
-//     apiKey: "256b030ad41189bed826cf98d32a1e0a",
-//     fetchData: (city) => {
-//         fetch(
-//             "https://api.openweathermap.org/data/2.5/weather?q=" + "pune" + "&appid=256b030ad41189bed826cf98d32a1e0a&units=metric"
-//         )
-//             .then((response) => response.json())
-//             .then((data) => this.displayWeather(data))
-//     },
-//     displayWeather: function (data) {
-//         const { name } = data
-//         const { icon, desription } = data.weather
-//         const { temp, humidity } = data.main
-//         const { speed } = data.wind
-//         console.log(name, icon, desription, temp, humidity, speed);
-//     },
-// }
-
-
 const btn = document.querySelector(".search-btn")
 
 
@@ -42,27 +22,6 @@ btn.addEventListener('click', () => {
     <h1 class="temp">${jsonData.main.temp}&#8451;</h1>`
         document.querySelector(".min").innerHTML = `min: ${jsonData.main.temp_min}&#8451;`
         document.querySelector(".max").innerHTML = `max: ${jsonData.main.temp_max}&#8451;`
-        // main
-        // console.log(jsonData.main.temp);
-        // console.log(jsonData.main.feels_like);
-        // console.log(jsonData.main.temp_min);
-        // console.log(jsonData.main.temp_max);
-        // console.log(jsonData.main.pressure);
-        // console.log(jsonData.main.sea_level);
-        // console.log(jsonData.main.grnd_level);
-
-        // //wind 
-        // console.log(jsonData.wind.speed);
-        // console.log(jsonData.wind.deg);
-        // console.log(jsonData.wind.gust);
-
-        // //weather
-        // console.log(jsonData.weather[0].description);
-        // console.log(jsonData.weather[0].icon);
-
-
-
-
 
     }
     fetData()
